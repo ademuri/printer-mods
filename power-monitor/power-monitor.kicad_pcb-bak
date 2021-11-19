@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 32)
+    (drawings 33)
     (tracks 156)
     (zones 0)
     (modules 16)
@@ -708,6 +708,9 @@
     )
   )
 
+  (gr_text "power-monitor v1.0" (at 134.2 94.4) (layer B.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
+  )
   (gr_text VCC (at 123.4 83.2) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
